@@ -1,0 +1,16 @@
+.div_menu{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: blue;
+}
+/*.li_menu{
+     display: flex; */ 
+    /* justify-content:flex-start;  */
+    /* justify-items: center; */
+    /* text-justify: left; */
+    /* align-content: left; */
+    /* align-items: left; */
+    /* place-items: left; */
+    /* align-self: center;    
+}*/
