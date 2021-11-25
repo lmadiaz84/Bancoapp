@@ -26,8 +26,7 @@ constructor(props){
     render(){
         return(
             <div>
-                <CounterDisplay number={this.state.number}>
-                </CounterDisplay>
+                <CounterDisplay number={this.state.number}/>
                 <Counter onIncrement={this.increment} onDecrement={this.decrement} />
             </div>
         )

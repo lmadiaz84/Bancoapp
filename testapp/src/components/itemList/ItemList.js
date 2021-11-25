@@ -1,11 +1,15 @@
 import React from "react";
 import './ItemList.css';
+import Item from '../Item/Item.js';
 
-export default function ItemList({bazar, precio}) {
+export default function ItemList({items}) {
     return (
-        <div className='div_menu'>
-            <li className='li_menu'>Tenemos: {bazar} Precio: {precio}</li>
-        </div>
+        <container className = 'itemlistcontainer'>
+            <row>
+                {items.map((prod)=> <Item key={prod.id} {...prod}/>)}
+            </row>
+        </container>
+        
         
     )
 }
